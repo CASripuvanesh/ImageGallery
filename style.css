@@ -1,0 +1,29 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body {
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    background-color: rgb(12, 12, 32);
+                    color: aliceblue;
+                    text-align: center;
+                }
+                
+                h1 {
+                    padding: 20px;
+                }
+                
+                .cotainer {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                
+                .cotainer div {
+                    width: 200px;
+                    margin: 10px;
+                    flex-basis: 20%;
+                }
